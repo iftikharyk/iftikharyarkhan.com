@@ -21,21 +21,21 @@ export const routes: Routes = [
         title: 'Blog & Insights - Iftikhar Yar Khan',
         loadComponent: () => import('./pages/blogs/blogs.component').then(m => m.BlogsComponent)
     },
-    {
-        path: 'blog/:slug',
-        title: 'Optimizing Cloud Costs at Scale',
-        loadComponent: () => import('./pages/blog-detail/blog-detail.component').then(m => m.BlogDetailComponent)
-    },
+    // {
+    //     path: 'blog/:slug',
+    //     title: 'Optimizing Cloud Costs at Scale',
+    //     loadComponent: () => import('./pages/blog-detail/blog-detail.component').then(m => m.BlogDetailComponent)
+    // },
     {
         path: 'projects',
         title: 'Projects - Iftikhar Yar Khan',
         loadComponent: () => import('./pages/projects/projects.component').then(m => m.ProjectsComponent)
     },
-    {
-        path: 'project/:slug',
-        title: 'Project Detail - Nexus Data Platform',
-        loadComponent: () => import('./pages/project-detail/project-detail.component').then(m => m.ProjectDetailComponent)
-    },
+    // {
+    //     path: 'project/:slug',
+    //     title: 'Project Detail - Nexus Data Platform',
+    //     loadComponent: () => import('./pages/project-detail/project-detail.component').then(m => m.ProjectDetailComponent)
+    // },
     {
         path: '**',
         title: '404 Not Found',
