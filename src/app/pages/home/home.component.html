@@ -1,1 +1,146 @@
-<p>home works!</p>
+<div class="home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-label label-caps reveal">
+          <span class="hero-dot"></span>
+          Project Lead &bull; Backend Architect &bull; Full Stack Engineer
+        </div>
+
+        <h1 class="display-lg reveal">
+          I build systems that
+          <span class="hero-gradient">perform at scale.</span>
+        </h1>
+
+        <p class="hero-description body-lg reveal">
+          I design and build scalable backend systems, modern web applications, and cloud-native
+          solutions that drive performance and reliability at scale.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a routerLink="/experience" class="btn btn-primary">
+            View Projects
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a routerLink="/blog" class="btn btn-ghost">Read Blog</a>
+        </div>
+
+        <div class="hero-social reveal">
+          <a href="https://github.com/iyarkhan" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+            <span class="material-symbols-outlined">code</span>
+          </a>
+          <a href="https://linkedin.com/in/iftikharyarkhan" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+            <span class="material-symbols-outlined">person</span>
+          </a>
+          <a href="mailto:hello@iftikhar.dev" class="social-icon" aria-label="Email">
+            <span class="material-symbols-outlined">mail</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="hero-visual reveal">
+        <div class="hero-glow"></div>
+        <div class="hero-code-block glass">
+          <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span class="code-filename">architect.ts</span>
+          </div>
+          <pre class="code-body"><code><span class="code-keyword">interface</span> <span class="code-type">Architect</span> &#123;
+  <span class="code-prop">name</span>: <span class="code-string">"Iftikhar Yar Khan"</span>;
+  <span class="code-prop">role</span>: <span class="code-string">"Project Lead"</span>;
+  <span class="code-prop">stack</span>: <span class="code-type">string</span>[];
+  <span class="code-prop">passion</span>: <span class="code-string">"Building at Scale"</span>;
+&#125;</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="stats-grid reveal">
+        @for (stat of stats; track stat.label; let i = $index) {
+          <div class="stat-card glass">
+            <span class="stat-value">{{ animatedValues[i] }}{{ stat.suffix }}</span>
+            <span class="stat-label">{{ stat.label }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities Section -->
+  <section class="section">
+    <div class="container">
+      <div class="capabilities-header reveal">
+        <span class="label-caps section-label">What I Do</span>
+        <h2 class="headline-md">Core Capabilities</h2>
+      </div>
+
+      <div class="capabilities-grid">
+        <div class="capability-card card reveal">
+          <div class="capability-icon">
+            <span class="material-symbols-outlined">dns</span>
+          </div>
+          <h3 class="headline-sm">Backend Architecture</h3>
+          <p class="body-md">Designing resilient microservices, RESTful APIs, and event-driven architectures capable of handling millions of requests.</p>
+          <div class="capability-tags">
+            <span class="chip">Node.js</span>
+            <span class="chip">Go</span>
+            <span class="chip">GraphQL</span>
+            <span class="chip">Kafka</span>
+          </div>
+        </div>
+
+        <div class="capability-card card reveal">
+          <div class="capability-icon">
+            <span class="material-symbols-outlined">web</span>
+          </div>
+          <h3 class="headline-sm">Frontend Engineering</h3>
+          <p class="body-md">Building performant, accessible, and responsive user interfaces that deliver exceptional user experiences.</p>
+          <div class="capability-tags">
+            <span class="chip">Angular</span>
+            <span class="chip">React</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Next.js</span>
+          </div>
+        </div>
+
+        <div class="capability-card card reveal">
+          <div class="capability-icon">
+            <span class="material-symbols-outlined">cloud</span>
+          </div>
+          <h3 class="headline-sm">Cloud & DevOps</h3>
+          <p class="body-md">Architecting cloud-native solutions with automated CI/CD pipelines, containerized deployments, and infrastructure as code.</p>
+          <div class="capability-tags">
+            <span class="chip">AWS</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">Terraform</span>
+            <span class="chip">Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section reveal">
+    <div class="container">
+      <div class="cta-card glass">
+        <div class="cta-content">
+          <p class="body-lg">Currently open for new opportunities, consulting, and technical leadership roles.</p>
+          <a routerLink="/contact" class="btn btn-primary">
+            Get in Touch
+            <span class="material-symbols-outlined">send</span>
+          </a>
+        </div>
+        <div class="cta-glow"></div>
+      </div>
+    </div>
+  </section>
+</div>

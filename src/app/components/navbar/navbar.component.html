@@ -1,1 +1,29 @@
-<p>navbar works!</p>
+<nav [class.scrolled]="isScrolled" class="navbar">
+  <div class="nav-container">
+    <a routerLink="/" class="nav-logo" (click)="closeMenu()">Iftikhar Yar Khan</a>
+
+    <div class="nav-links" [class.open]="mobileMenuOpen">
+      <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a>
+      <a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a>
+      <a routerLink="/blogs" routerLinkActive="active" (click)="closeMenu()">Blogs</a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a>
+    </div>
+
+    <a routerLink="/contact" class="nav-cta btn btn-ghost" (click)="closeMenu()">
+      <span class="material-symbols-outlined">mail</span>
+      Hire Me
+    </a>
+
+    <button class="nav-hamburger" (click)="toggleMenu()" [attr.aria-label]="mobileMenuOpen ? 'Close menu' : 'Open menu'">
+      <span [class.open]="mobileMenuOpen"></span>
+      <span [class.open]="mobileMenuOpen"></span>
+      <span [class.open]="mobileMenuOpen"></span>
+    </button>
+  </div>
+
+  <!-- Mobile Overlay -->
+  @if (mobileMenuOpen) {
+    <div class="mobile-overlay" (click)="closeMenu()"></div>
+  }
+</nav>
+<div class="nav-spacer"></div>
