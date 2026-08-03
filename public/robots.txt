@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iftikharyarkhan.com/sitemap.xml

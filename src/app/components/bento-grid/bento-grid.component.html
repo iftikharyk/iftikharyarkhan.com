@@ -1,0 +1,82 @@
+<section id="stack" class="py-6 px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+    <!-- Core Focus -->
+    <div class="lg:col-span-4 bg-slate-900/60 backdrop-blur-md border border-slate-800 rounded-3xl p-6">
+        <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-6">🎯 Core Focus</h3>
+        <div class="space-y-4">
+            @for (item of coreFocus; track item.title) {
+            <div class="bg-slate-950/40 border border-slate-800/60 rounded-2xl p-4">
+                <h4 class="text-white font-semibold text-sm">{{ item.title }}</h4>
+                <p class="text-slate-400 text-xs mt-1">{{ item.desc }}</p>
+            </div>
+            }
+        </div>
+    </div>
+
+    <!-- API Ecosystem -->
+    <div class="lg:col-span-4 bg-slate-900/60 backdrop-blur-md border border-slate-800 rounded-3xl p-6">
+        <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-6">🔌 API Ecosystem</h3>
+        <div class="grid grid-cols-2 gap-4">
+            @for (api of apis; track api.name) {
+            <div
+                class="bg-slate-950/50 border border-slate-800 rounded-2xl p-4 text-center hover:border-slate-700 transition">
+                <span class="text-white font-semibold text-sm block">{{ api.name }}</span>
+                <span class="text-slate-400 text-[10px] block mt-1">{{ api.category }}</span>
+            </div>
+            }
+        </div>
+    </div>
+
+    <!-- Tech Matrix (Color Coded Categories) -->
+    <div class="lg:col-span-4 bg-slate-900/60 backdrop-blur-md border border-slate-800 rounded-3xl p-6">
+        <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-6">⚡ Tech Matrix</h3>
+
+        <div class="space-y-5">
+            <div>
+                <span class="text-[10px] font-bold text-amber-400 uppercase">Languages & Frameworks</span>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    @for (skill of languages; track skill) {
+                    <span
+                        class="text-xs font-medium px-2.5 py-1 rounded-lg bg-amber-950/30 border border-amber-500/30 text-amber-300 hover:scale-105 transition">{{
+                        skill }}</span>
+                    }
+                </div>
+            </div>
+
+            <div>
+                <span class="text-[10px] font-bold text-cyan-400 uppercase">Databases & Storages</span>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    @for (db of databases; track db) {
+                    <span
+                        class="text-xs font-medium px-2.5 py-1 rounded-lg bg-cyan-950/30 border border-cyan-500/30 text-cyan-300 hover:scale-105 transition">{{
+                        db }}</span>
+                    }
+                </div>
+            </div>
+
+            <div>
+                <span class="text-[10px] font-bold text-purple-400 uppercase">Infrastructure</span>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    @for (infra of infrastructure; track infra) {
+                    <span
+                        class="text-xs font-medium px-2.5 py-1 rounded-lg bg-purple-950/30 border border-purple-500/30 text-purple-300 hover:scale-105 transition">{{
+                        infra }}</span>
+                    }
+                </div>
+            </div>
+
+            <div>
+                <span class="text-[10px] font-bold text-slate-400 uppercase">Management</span>
+                <div class="flex flex-wrap gap-2 mt-2">
+                    @for (mgmt of management; track mgmt) {
+                    <span
+                        class="text-xs font-medium px-2.5 py-1 rounded-lg bg-slate-800/50 border border-slate-700 text-slate-200 hover:scale-105 transition">{{
+                        mgmt }}</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>

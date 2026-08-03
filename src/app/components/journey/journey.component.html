@@ -1,0 +1,29 @@
+<section id="journey" class="py-6 px-6 max-w-7xl mx-auto">
+    <div class="bg-slate-900/60 backdrop-blur-md border border-slate-800 rounded-3xl p-8">
+        <h2 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-6">💼 Professional Journey</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            @for (job of experiences; track job.company) {
+            <div
+                class="bg-slate-950/50 border border-slate-800/80 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-700 transition">
+                <div>
+                    <!-- Date Pill -->
+                    <span class="inline-block text-[10px] font-bold px-3 py-1 rounded-full mb-4"
+                        [class]="job.isCurrent ? 'bg-amber-400 text-slate-950' : 'bg-slate-800 text-slate-300 border border-slate-700'">
+                        {{ job.period }}
+                    </span>
+
+                    <!-- Company & Role -->
+                    <h3 class="text-white font-bold text-base mb-1">{{ job.company }}</h3>
+                    <p class="text-cyan-400 font-semibold text-xs mb-3">{{ job.role }}</p>
+
+                    <!-- Description -->
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        {{ job.description }}
+                    </p>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>

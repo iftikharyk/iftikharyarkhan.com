@@ -1,4 +1,28 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "angular"
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/iftikharyarkhan.com/browser",
+  "framework": "angular",
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/manifest.webmanifest",
+      "destination": "/manifest.webmanifest"
+    },
+    {
+      "source": "/resume.pdf",
+      "destination": "/resume.pdf"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }

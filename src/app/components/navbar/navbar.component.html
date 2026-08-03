@@ -1,29 +1,25 @@
-<nav [class.scrolled]="isScrolled" class="navbar">
-  <div class="nav-container">
-    <a routerLink="/" class="nav-logo" (click)="closeMenu()">Iftikhar Yar Khan</a>
+<nav class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80 px-6 py-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Logo / Brand Jump to Top -->
+        <a (click)="scrollTo('#top')" class="text-xl font-bold tracking-tight text-white cursor-pointer select-none">
+            Iftikhar Yar Khan
+        </a>
 
-    <div class="nav-links" [class.open]="mobileMenuOpen">
-      <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a>
-      <a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a>
-      <a routerLink="/blogs" routerLinkActive="active" (click)="closeMenu()">Blogs</a>
-      <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a>
+        <!-- Desktop Nav Links -->
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+            <button (click)="scrollTo('#about')" class="hover:text-amber-400 transition cursor-pointer">About</button>
+            <button (click)="scrollTo('#stack')" class="hover:text-amber-400 transition cursor-pointer">Tech
+                Matrix</button>
+            <button (click)="scrollTo('#journey')"
+                class="hover:text-amber-400 transition cursor-pointer">Journey</button>
+            <button (click)="scrollTo('#contact')"
+                class="hover:text-amber-400 transition cursor-pointer">Contact</button>
+        </div>
+
+        <!-- CTA Button -->
+        <button (click)="scrollTo('#contact')"
+            class="px-4 py-2 bg-amber-400 text-slate-950 font-semibold rounded-full text-xs hover:bg-amber-300 transition cursor-pointer">
+            Hire Me
+        </button>
     </div>
-
-    <a routerLink="/contact" class="nav-cta btn btn-ghost" (click)="closeMenu()">
-      <span class="material-symbols-outlined">mail</span>
-      Hire Me
-    </a>
-
-    <button class="nav-hamburger" (click)="toggleMenu()" [attr.aria-label]="mobileMenuOpen ? 'Close menu' : 'Open menu'">
-      <span [class.open]="mobileMenuOpen"></span>
-      <span [class.open]="mobileMenuOpen"></span>
-      <span [class.open]="mobileMenuOpen"></span>
-    </button>
-  </div>
-
-  <!-- Mobile Overlay -->
-  @if (mobileMenuOpen) {
-    <div class="mobile-overlay" (click)="closeMenu()"></div>
-  }
 </nav>
-<div class="nav-spacer"></div>

@@ -1,46 +1,20 @@
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-content">
-      <div class="footer-brand">
-        <a routerLink="/" class="footer-logo">Iftikhar Yar Khan</a>
-        <p class="footer-tagline">Engineered for Performance. Crafting scalable architectures and high-fidelity interfaces.</p>
-      </div>
-
-      <div class="footer-nav">
-        <div class="footer-col">
-          <h4 class="footer-heading">Navigation</h4>
-          <a routerLink="/">Home</a>
-          <a routerLink="/experience">Projects</a>
-          <a routerLink="/stack">Stack</a>
-          <a routerLink="/blog">Insights</a>
-        </div>
-
-        <div class="footer-col">
-          <h4 class="footer-heading">Connect</h4>
-          <a href="https://github.com/iyarkhan" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://linkedin.com/in/iftikharyarkhan" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://twitter.com/iftikharyarkhan" target="_blank" rel="noopener">Twitter</a>
-          <a href="mailto:hello@iftikhar.dev">Email</a>
-        </div>
-      </div>
+<footer
+    class="border-t border-slate-800/80 py-8 px-6 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+    <div>
+        <p class="text-white font-bold">Iftikhar Yar Khan</p>
+        <p class="text-[11px] text-slate-500 mt-0.5">&copy; 2026 Iftikhar Yar Khan. All rights reserved.</p>
     </div>
 
-    <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2024 Iftikhar Yar Khan.</p>
-      <div class="footer-socials">
-        <a href="https://github.com/iyarkhan" target="_blank" rel="noopener" aria-label="GitHub">
-          <span class="material-symbols-outlined">code</span>
-        </a>
-        <a href="https://linkedin.com/in/iftikharyarkhan" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <span class="material-symbols-outlined">work</span>
-        </a>
-        <a href="https://twitter.com/iftikharyarkhan" target="_blank" rel="noopener" aria-label="Twitter">
-          <span class="material-symbols-outlined">tag</span>
-        </a>
-        <a href="mailto:hello@iftikhar.dev" aria-label="Email">
-          <span class="material-symbols-outlined">mail</span>
-        </a>
-      </div>
+    <div class="flex items-center space-x-6">
+        <a href="https://linkedin.com/in/iftikharyarkhan" target="_blank"
+            class="hover:text-amber-400 transition">LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="hover:text-amber-400 transition">GitHub</a>
+        <a href="/iftikharyarkhan_resume.pdf" target="_blank" rel="noopener" class="hover:text-amber-400 transition">Resume PDF</a>
+
+        <!-- Smooth Back to Top Button -->
+        <button (click)="scrollToTop()"
+            class="ml-4 text-slate-400 hover:text-amber-400 transition cursor-pointer flex items-center gap-1">
+            Back to top ↑
+        </button>
     </div>
-  </div>
 </footer>

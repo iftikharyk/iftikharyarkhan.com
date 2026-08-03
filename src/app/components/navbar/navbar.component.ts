@@ -1,32 +1,21 @@
-import { Component, HostListener } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
-  isScrolled = false;
-  mobileMenuOpen = false;
-
-  @HostListener('window:scroll')
-  onScroll() {
-    this.isScrolled = window.scrollY > 20;
-  }
-
-  toggleMenu() {
-    this.mobileMenuOpen = !this.mobileMenuOpen;
-    if (this.mobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
+  scrollTo(target: string) {
+    if (target === '#top') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
     }
-  }
-
-  closeMenu() {
-    this.mobileMenuOpen = false;
-    document.body.style.overflow = '';
+    
+    const element = document.querySelector(target);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 }
