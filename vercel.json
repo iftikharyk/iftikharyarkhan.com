@@ -3,6 +3,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/iftikharyarkhan.com/browser",
   "framework": "angular",
+  "git": {
+    "deploymentEnabled": {
+      "master": true
+    }
+  },
   "rewrites": [
     {
       "source": "/robots.txt",
