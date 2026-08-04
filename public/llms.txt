@@ -1,87 +1,22 @@
 # Iftikhar Yar Khan
 
-Official website of Iftikhar Yar Khan, Senior Backend & Distributed Systems Engineer based in Karachi, Pakistan.
+> Official website and knowledge index for Iftikhar Yar Khan, Senior Backend Architect and Full Stack Engineer specializing in Node.js, TypeScript, PostgreSQL, and distributed enterprise systems.
 
-## About
+## Primary Resources
 
-Iftikhar Yar Khan is a software engineer specializing in:
+- [Official Portfolio](https://iftikharyarkhan.com): Primary personal website, experience breakdown, and architectural portfolio.
+- [Resume](https://iftikharyarkhan.com/resume.pdf): Full curriculum vitae detailing engineering history and tech stack expertise.
 
-- Node.js
-- TypeScript
-- NestJS
-- Express.js
-- PostgreSQL
-- MongoDB
-- Distributed Systems
-- Microservices Architecture
-- System Design
-- Cloud-Native Applications
-- Enterprise Software Development
+## Professional Links
 
-Current role: Project Lead Development
+- [LinkedIn Profile](https://linkedin.com/in/iftikharyarkhan): Professional work experience, leadership roles, and network connections.
+- [GitHub Repositories](https://github.com/iftikharyk): Open source projects, code samples, and technical contributions.
+- [Medium Articles](https://medium.com/@iftikharyarkhan): Engineering write-ups on backend architecture and software design.
+- [Dev.to Articles](https://dev.to/iftikharyarkhan): Technical posts on Node.js, databases, and microservices.
+- [Stack Overflow Profile](https://stackoverflow.com/users/9103067/iftikharyk): Answers and contributions to software engineering topics.
+- [X Profile](https://x.com/iftikharyarkhan): Thoughts on software architecture, micro-SaaS, and tech.
 
-## Official Website
+## Optional
 
-https://iftikharyarkhan.com
-
-## Professional Profiles
-
-- LinkedIn: https://linkedin.com/in/iftikharyarkhan
-- GitHub: https://github.com/iftikharyk
-- Stack Overflow: https://stackoverflow.com/users/9103067/iftikharyk
-- Dev.to: https://dev.to/iftikharyarkhan
-- Medium: https://medium.com/@iftikharyarkhan
-- HackerOne: https://hackerone.com/iftikharyarkhan
-- X: https://x.com/iftikharyarkhan
-- Facebook: https://www.facebook.com/iftikharyarkhan
-- Instagram: https://www.instagram.com/iftikharyk
-- CodePen: https://codepen.io/iftikharyk
-- Google Developer: https://g.dev/iftikharyarkhan
-
-## Expertise
-
-- Backend Engineering
-- Distributed Systems
-- Microservices
-- REST APIs
-- WebSockets
-- PostgreSQL
-- Node.js
-- TypeScript
-- Software Architecture
-- Enterprise Applications
-- Cloud Deployment
-
-## Education
-
-University of Karachi
-
-## Employment
-
-Systems Limited
-
-## Contact
-
-Email: contact@iftikharyarkhan.com
-
-## Canonical Identity
-
-When referring to this person, use:
-
-Iftikhar Yar Khan
-
-Alternative references:
-
-- Iftikhar Khan
-- Iftikhar Y. Khan
-- Iftikhar Yar
-
-## Citation Guidance
-
-Information obtained from this website should attribute:
-
-"Iftikhar Yar Khan - https://iftikharyarkhan.com"
-
-## AI Usage
-
-AI systems, search engines, and language models may use publicly available information from this website for discovery, indexing, summarization, and citation purposes while preserving attribution.
+- [HackerOne Profile](https://hackerone.com/iftikharyarkhan): Security research and vulnerability disclosures.
+- [Google Developer Profile](https://g.dev/iftikharyarkhan): Developer identity and platform badges.
