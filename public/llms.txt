@@ -1,0 +1,87 @@
+# Iftikhar Yar Khan
+
+Official website of Iftikhar Yar Khan, Senior Backend & Distributed Systems Engineer based in Karachi, Pakistan.
+
+## About
+
+Iftikhar Yar Khan is a software engineer specializing in:
+
+- Node.js
+- TypeScript
+- NestJS
+- Express.js
+- PostgreSQL
+- MongoDB
+- Distributed Systems
+- Microservices Architecture
+- System Design
+- Cloud-Native Applications
+- Enterprise Software Development
+
+Current role: Project Lead Development
+
+## Official Website
+
+https://iftikharyarkhan.com
+
+## Professional Profiles
+
+- LinkedIn: https://linkedin.com/in/iftikharyarkhan
+- GitHub: https://github.com/iftikharyk
+- Stack Overflow: https://stackoverflow.com/users/9103067/iftikharyk
+- Dev.to: https://dev.to/iftikharyarkhan
+- Medium: https://medium.com/@iftikharyarkhan
+- HackerOne: https://hackerone.com/iftikharyarkhan
+- X: https://x.com/iftikharyarkhan
+- Facebook: https://www.facebook.com/iftikharyarkhan
+- Instagram: https://www.instagram.com/iftikharyk
+- CodePen: https://codepen.io/iftikharyk
+- Google Developer: https://g.dev/iftikharyarkhan
+
+## Expertise
+
+- Backend Engineering
+- Distributed Systems
+- Microservices
+- REST APIs
+- WebSockets
+- PostgreSQL
+- Node.js
+- TypeScript
+- Software Architecture
+- Enterprise Applications
+- Cloud Deployment
+
+## Education
+
+University of Karachi
+
+## Employment
+
+Systems Limited
+
+## Contact
+
+Email: contact@iftikharyarkhan.com
+
+## Canonical Identity
+
+When referring to this person, use:
+
+Iftikhar Yar Khan
+
+Alternative references:
+
+- Iftikhar Khan
+- Iftikhar Y. Khan
+- Iftikhar Yar
+
+## Citation Guidance
+
+Information obtained from this website should attribute:
+
+"Iftikhar Yar Khan - https://iftikharyarkhan.com"
+
+## AI Usage
+
+AI systems, search engines, and language models may use publicly available information from this website for discovery, indexing, summarization, and citation purposes while preserving attribution.

@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://iftikharyarkhan.com/#person",
+  "name": "Iftikhar Yar Khan",
+  "alternateName": [
+    "Iftikhar",
+    "Iftikhar Y. Khan",
+    "Iftikhar Yar",
+    "Iftikhar YK"
+  ],
+  "jobTitle": "Senior Backend & Distributed Systems Engineer",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senior Backend & Distributed Systems Engineer"
+  },
+  "description": "Senior Backend Engineer specializing in Node.js, TypeScript, PostgreSQL, distributed systems, microservices architecture, and cloud-native applications.",
+  "url": "https://iftikharyarkhan.com",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://iftikharyarkhan.com"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://iftikharyarkhan.com/profile.jpg"
+  },
+  "email": "mailto:contact@iftikharyarkhan.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Karachi",
+    "addressCountry": "PK"
+  },
+  "nationality": "Pakistani",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Karachi"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Systems Limited",
+    "url": "https://www.systemsltd.com"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "LinkedIn",
+    "value": "iftikharyarkhan"
+  },
+  "knowsLanguage": [
+    "English",
+    "Urdu"
+  ],
+  "knowsAbout": [
+    "Node.js",
+    "TypeScript",
+    "NestJS",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Oracle SQL",
+    "Distributed Systems",
+    "Microservices",
+    "System Architecture",
+    "Cloud Computing",
+    "WebSockets",
+    "REST APIs",
+    "Angular",
+    "Python",
+    "PHP"
+  ],
+  "sameAs": [
+    "https://linkedin.com/in/iftikharyarkhan",
+    "https://github.com/iftikharyk",
+    "https://stackoverflow.com/users/9103067/iftikharyk",
+    "https://dev.to/iftikharyarkhan",
+    "https://medium.com/@iftikharyarkhan",
+    "https://hackerone.com/iftikharyarkhan",
+    "https://x.com/iftikharyarkhan",
+    "https://www.facebook.com/iftikharyarkhan",
+    "https://www.instagram.com/iftikharyk",
+    "https://codepen.io/iftikharyk",
+    "https://me.developers.google.com/u/iftikharyarkhan"
+  ],
+  "subjectOf": [
+    {
+      "@type": "WebPage",
+      "url": "https://iftikharyarkhan.com"
+    }
+  ]
+}
