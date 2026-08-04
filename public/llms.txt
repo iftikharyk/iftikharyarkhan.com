@@ -1,6 +1,6 @@
 # Iftikhar Yar Khan
 
-> Official website and knowledge index for Iftikhar Yar Khan, Senior Backend Architect and Full Stack Engineer specializing in Node.js, TypeScript, PostgreSQL, and distributed enterprise systems.
+> Official website and knowledge index for Iftikhar Yar Khan, Senior Backend & Distributed Systems Engineer specializing in Node.js, TypeScript, PostgreSQL, and distributed enterprise systems.
 
 ## Primary Resources
 
