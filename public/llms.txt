@@ -5,7 +5,7 @@
 ## Primary Resources
 
 - [Official Portfolio](https://iftikharyarkhan.com): Primary personal website, experience breakdown, and architectural portfolio.
-- [Resume](https://iftikharyarkhan.com/resume.pdf): Full curriculum vitae detailing engineering history and tech stack expertise.
+- [Resume](https://iftikharyarkhan.com/iftikharyarkhan_resume.pdf): Full curriculum vitae detailing engineering history and tech stack expertise.
 
 ## Professional Links
 
@@ -15,6 +15,7 @@
 - [Dev.to Articles](https://dev.to/iftikharyarkhan): Technical posts on Node.js, databases, and microservices.
 - [Stack Overflow Profile](https://stackoverflow.com/users/9103067/iftikharyk): Answers and contributions to software engineering topics.
 - [X Profile](https://x.com/iftikharyarkhan): Thoughts on software architecture, micro-SaaS, and tech.
+- [Google Developer Profile](https://g.dev/iftikharyarkhan): Open source projects, code samples, and technical contributions.
 
 ## Optional
 
